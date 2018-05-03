@@ -1,0 +1,7 @@
+oauth_manual_tokens.user_consumer_add:
+  path: '/oauth/consumer/add/{user}/manual'
+  defaults:
+    _form: '\Drupal\oauth_manual_tokens\Form\OAuthManualTokensAddConsumerForm'
+    _title: 'Manually add an OAuth Consumer'
+  requirements:
+    _permission: 'create manual consumer'

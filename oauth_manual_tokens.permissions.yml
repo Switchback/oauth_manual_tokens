@@ -1,0 +1,3 @@
+create manual consumer:
+  title: 'Manually Create OAuth token'
+  restrict access: TRUE

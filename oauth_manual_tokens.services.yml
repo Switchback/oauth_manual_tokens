@@ -1,0 +1,5 @@
+services:
+  oauth_manual_tokens.route_subscriber:
+    class: Drupal\oauth_manual_tokens\Routing\OAuthManualTokensRouteSubscriber
+    tags:
+      - {name: event_subscriber }
